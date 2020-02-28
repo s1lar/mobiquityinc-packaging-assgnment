@@ -11,6 +11,11 @@ import com.mobiquity.packer.Packer;
 public class Main {
 
     public static void main(String[] args) throws APIException {
-        System.out.println(Packer.pack("src/main/test/resources/example_input"));
+
+        if(args.length == 0) {
+            System.out.println(Packer.pack("src/main/test/resources/example_input"));
+        } else {
+            System.out.println(Packer.pack(args[0]));
+        }
     }
 }

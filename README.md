@@ -57,7 +57,7 @@ mvn clean install
 #### Run the application
 After successful installation, execute next command from console:
 ```
-mvn exec:java -Dexec.mainClass="com.mobiquityinc.Application" -Dexec.args="***yourfilepath***"
+mvn exec:java -Dexec.mainClass="com.mobiquity.Main" -Dexec.args="***yourfilepath***"
 ```
 Where ***yourfilepath*** is the absolute path to the file with test cases
 

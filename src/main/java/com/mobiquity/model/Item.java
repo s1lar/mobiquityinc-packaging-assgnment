@@ -26,7 +26,7 @@ public class Item {
         try {
             ItemValidator.validateItem(index, weight, cost);
             this.index = index;
-            //used for future algorithm (Khapsack), which works only with integers
+            //used for future algorithm (Knapsack), which works only with integers
             this.weight = (int) (weight * 100);
             this.cost = cost;
         } catch (APIException e) {

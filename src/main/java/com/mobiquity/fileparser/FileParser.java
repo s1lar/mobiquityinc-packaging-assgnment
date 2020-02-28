@@ -28,7 +28,7 @@ public class FileParser {
      * Valid line example: 75 : (1,85.31,€29) (2,14.55,€74) (3,3.98,€16)
      */
     private static final String inputLineRegex =
-            "^\\d+\\s*?:\\s*\\(\\s*\\d+\\s*,\\s*\\d*\\.{0,1}\\d+\\s*,\\s*€\\d*\\.{0,1}\\d+\\s*\\).*$";
+            "^\\d+\\s*?:\\s*\\(\\s*\\d+\\s*,\\s*\\d*\\.?\\d+\\s*,\\s*€\\d*\\.?\\d+\\s*\\).*$";
 
     private static final String currencyRegex = "\\p{Sc}";
 

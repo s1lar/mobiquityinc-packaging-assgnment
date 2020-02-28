@@ -19,7 +19,7 @@ public class ItemPackageTest {
     private Item item;
 
     @BeforeEach
-    public void setupThis() throws APIException {
+    public void setup() throws APIException {
         this.item = new Item(1, 20, 50);
     }
 

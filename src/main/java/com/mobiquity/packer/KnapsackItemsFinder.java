@@ -100,6 +100,10 @@ public class KnapsackItemsFinder {
 
 
     private static String printItemIndexes(final List<Item> items) {
+        if(Objects.isNull(items) || items.isEmpty()) {
+            return EMPTY_RESULT;
+        }
+
         return items.stream()
                     .map(Item::getIndex)
                     .sorted()

@@ -1,8 +1,6 @@
 # Assignment: Package Challenge
 
-This is challenge for Mobiquity by Igor Sila.
-
-Thi challenge was solved by Java 11, maven and JUnit 5.
+This challenge was solved by Java 11, maven and JUnit 5.
 
 ## Introduction
 
